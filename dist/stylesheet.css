@@ -1,0 +1,354 @@
+.aw_container_horizontal,
+#aw_last_drawer {
+  border-top: 1px solid #c8c8c8;
+  max-width: 1200px;
+  min-width: 400px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aw_drop_down_container {
+  max-width: 1200px;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.75%;
+  margin-bottom: 0.75%;
+  padding-left: 5%;
+}
+
+.aw_drop_down_text {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 120%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.aw_box_number {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 0.25% 0.5%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.75rem;
+}
+
+.aw_container_horizontal:hover,
+#aw_last_drawer:hover {
+  background-color: #dfdfdf;
+}
+.aw_drawer_label_styling,
+.aw_x_icon {
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.aw_drawer_label_text {
+  padding-left: 2rem;
+}
+.aw_x_icon {
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 10px;
+}
+
+#aw_last_drawer {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.rotate {
+  transition: transform 0.2s;
+  transform: rotate(-45deg) translateY(5px);
+  transform-origin: center;
+}
+
+.rotate_original {
+  transition: transform 0.2s;
+  transform: rotate(0deg);
+  transform-origin: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.aw_env_materials {
+  width: 50%;
+  margin-top: 0.75%;
+  margin-bottom: 0.75%;
+  padding-left: 5%;
+  line-height: 150%;
+}
+
+.hidden {
+  visibility: hidden;
+  line-height: 100%;
+}
+
+.aw_review_list_box {
+  border-top: 1px dotted #c8c8c8;
+  padding-top: 2%;
+  width: 100%;
+}
+
+.aw_review_list_text {
+  font-family: 'Verdana', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.aw_review_list_title {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.aw_review_list_formatting {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.aw_light_italic {
+  color: #999;
+  font-style: italic;
+}
+
+.aw_no_left_padding {
+  padding-left: 0;
+}
+
+.aw_circle_icon {
+  margin-left: 10px;
+  font-family: Verdana;
+  font-weight: 100;
+  font-size: 7px;
+  display: inline-block;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  line-height: 7px;
+  border-radius: 50%;
+}
+
+.aw_circle_icon_x {
+  margin-left: 10px;
+  font-family: Verdana;
+  font-weight: 100;
+  font-size: 7px;
+  display: inline-block;
+  border: 2.5px solid black;
+  background-color: black;
+  color: white;
+  line-height: 6.5px;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.aw_helpful_buttons {
+  border-radius: 0px;
+  background-color: #f0f0f0;
+  margin: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  border: none;
+  font-size: 12px;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  outline: none;
+}
+
+.aw_helpful_buttons:hover {
+  box-shadow: inset 0 0 5px #999;
+}
+
+.aw_review_bars {
+  display: inline-block;
+  height: 8px;
+  width: 60px;
+  box-shadow: inset 1px 1px 0 #f0f0f0, inset -1px 0 0 rgba(0, 0, 0, 0.25);
+  border-radius: 0 2px 2px 0;
+}
+
+.aw_selected_golden {
+  background-color: gold;
+}
+
+.aw_review_top_bar {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.aw_bar_margin {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.aw_unselected {
+  background-color: white;
+}
+
+.aw_row {
+  display: flex;
+}
+
+.aw_review_text_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aw_column {
+  flex: 60%;
+}
+.aw_column2 {
+  flex: 40%;
+}
+
+.overall_rating_bars {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.aw_overall_rating_percent {
+  display: inline-block;
+  background-color: gold;
+  height: 10px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  border-right: none;
+  margin-right: 0;
+}
+
+.aw_overall_rating_noFill {
+  display: inline-block;
+  background-color: #fff;
+  height: 10px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  border-left: none;
+  margin-left: 0;
+}
+
+.aw_ratings_bottom_margin {
+  margin-bottom: 15px;
+}
+
+.aw_float_right {
+  float: right;
+}
+
+#submit_review_button {
+  font-size: 12px;
+  font-family: 'Verdana', sans-serif;
+  font-style: normal;
+  background-color: #0e7fd5;
+  color: white;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  line-height: 22px;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  float: right;
+  margin-right: 60px;
+  margin-top: 0;
+  outline: none;
+}
+
+.aw_button_clicked_form {
+  background: grey;
+}
+
+.aw_review_modal {
+  position: fixed;
+  display: flex;
+  top: 10%;
+  right: 30%;
+  bottom: 10%;
+  left: 30%;
+  z-index: 1000;
+  background: #f5f6f7;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+}
+
+.aw_modal_line {
+  width: 100%;
+  justify-content: center;
+  padding: 2%;
+  border-bottom: 1px solid darkgrey;
+}
+
+.aw_modal_text {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300px;
+  font-size: 16px;
+  margin: auto;
+  color: black;
+  text-align: left;
+  /* text-shadow: 2px 2px 2px black; */
+}
+.aw_button_form {
+  width: 40px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  font-size: 16px;
+  padding-bottom: 3px;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 5px;
+  outline: none;
+}
+
+.aw_bottom_padding_star_label {
+  padding-bottom: 40%;
+  padding-right: 15px;
+}
+
+.aw_form_submit_button {
+  margin-right: 36%;
+}
+
+.aw_wordwrap {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap; /* Opera <7 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+}
+
+.aw_submit_button {
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  font-size: 16px;
+  padding-bottom: 3px;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 5px;
+  outline: none;
+}
+
+.aw_cancel_button {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  font-size: 16px;
+  padding-bottom: 3px;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 5px;
+  outline: none;
+}
+
+.aw_input_box {
+  height: 1.5rem;
+  outline: none;
+}
+.aw_button_center_form {
+  margin-left: 20%;
+}
